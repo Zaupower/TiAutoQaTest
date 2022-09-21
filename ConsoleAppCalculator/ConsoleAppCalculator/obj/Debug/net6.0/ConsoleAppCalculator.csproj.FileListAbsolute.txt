@@ -13,3 +13,11 @@
 /home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/ConsoleAppCalculator.pdb
 /home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/ConsoleAppCalculator.genruntimeconfig.cache
 /home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/ref/ConsoleAppCalculator.dll
+C:\Users\marce\Documents\Automation Boot Camp\TiAutoQaTest\ConsoleAppCalculator\ConsoleAppCalculator\obj\Debug\net6.0\ConsoleAppCalculator.csproj.AssemblyReference.cache
+C:\Users\marce\Documents\Automation Boot Camp\TiAutoQaTest\ConsoleAppCalculator\ConsoleAppCalculator\obj\Debug\net6.0\ConsoleAppCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\Documents\Automation Boot Camp\TiAutoQaTest\ConsoleAppCalculator\ConsoleAppCalculator\obj\Debug\net6.0\ConsoleAppCalculator.AssemblyInfoInputs.cache
+C:\Users\marce\Documents\Automation Boot Camp\TiAutoQaTest\ConsoleAppCalculator\ConsoleAppCalculator\obj\Debug\net6.0\ConsoleAppCalculator.AssemblyInfo.cs
+C:\Users\marce\Documents\Automation Boot Camp\TiAutoQaTest\ConsoleAppCalculator\ConsoleAppCalculator\obj\Debug\net6.0\ConsoleAppCalculator.csproj.CoreCompileInputs.cache
+C:\Users\marce\Documents\Automation Boot Camp\TiAutoQaTest\ConsoleAppCalculator\ConsoleAppCalculator\obj\Debug\net6.0\ConsoleAppCalculator.dll
+C:\Users\marce\Documents\Automation Boot Camp\TiAutoQaTest\ConsoleAppCalculator\ConsoleAppCalculator\obj\Debug\net6.0\ref\ConsoleAppCalculator.dll
+C:\Users\marce\Documents\Automation Boot Camp\TiAutoQaTest\ConsoleAppCalculator\ConsoleAppCalculator\obj\Debug\net6.0\ConsoleAppCalculator.pdb

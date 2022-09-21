@@ -4,22 +4,22 @@ using System;
 public class Calculator
 {
     //all sides equal and angles
-    public static bool IsEquilateral()
+    public bool IsEquilateral()
     {
         return false;
     }
     //two sides equal and two angles equal
-    public static bool IsIsosceles()
+    public bool IsIsosceles()
     {
         return false;
     }
     //one of the angles is 90º
-    public static bool IsRight()
+    public bool IsRight()
     {
         return false;
     }
     //P = a + b + c
-    public static bool getPerimeter()
+    public bool getPerimeter()
     {
         return false;
     }
@@ -29,8 +29,10 @@ public class Calculator
   			cout << i <<" ";
 		}	
      */
-    public static bool printEvenNumbers()
+    public bool printEvenNumbers()
     {
         return false;
     }
+
+    
 }

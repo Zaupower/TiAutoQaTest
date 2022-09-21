@@ -14,19 +14,28 @@ class  Program
         int coordinateXC = 0; 
         int coordinateYC = 0; 
 
-// Ask the user to type the first number.
+        double ab = 0.0;
+        double bc = 0.0;
+        double ca = 0.0;
+
+        // Ask the user to type the first number.
         Console.WriteLine("Enter coordinate x of dot A");
         coordinateXA = Convert.ToInt32(Console.ReadLine());
+
         Console.WriteLine("Enter coordinate y of dot A");
         coordinateYA = Convert.ToInt32(Console.ReadLine());
 
+
         Console.WriteLine("Enter coordinate x of dot B");
         coordinateXB = Convert.ToInt32(Console.ReadLine());
+
         Console.WriteLine("Enter coordinate y of dot B");
         coordinateYB = Convert.ToInt32(Console.ReadLine());
 
+
         Console.WriteLine("Enter coordinate x of dot C");
         coordinateXC = Convert.ToInt32(Console.ReadLine());
+
         Console.WriteLine("Enter coordinate y of dot C");
         coordinateYC = Convert.ToInt32(Console.ReadLine());
     }
