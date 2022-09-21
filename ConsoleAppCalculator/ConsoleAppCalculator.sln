@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppCalculator", "ConsoleAppCalculator\ConsoleAppCalculator.csproj", "{9645E7D7-37BE-4C2C-8E43-07A9688D0902}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9645E7D7-37BE-4C2C-8E43-07A9688D0902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9645E7D7-37BE-4C2C-8E43-07A9688D0902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9645E7D7-37BE-4C2C-8E43-07A9688D0902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9645E7D7-37BE-4C2C-8E43-07A9688D0902}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

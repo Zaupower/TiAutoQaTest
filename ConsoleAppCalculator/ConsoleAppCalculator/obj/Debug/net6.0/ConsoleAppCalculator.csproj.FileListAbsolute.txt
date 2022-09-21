@@ -1,0 +1,15 @@
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/bin/Debug/net6.0/ConsoleAppCalculator
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/bin/Debug/net6.0/ConsoleAppCalculator.deps.json
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/bin/Debug/net6.0/ConsoleAppCalculator.runtimeconfig.json
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/bin/Debug/net6.0/ConsoleAppCalculator.dll
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/bin/Debug/net6.0/ConsoleAppCalculator.pdb
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/ConsoleAppCalculator.csproj.AssemblyReference.cache
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/ConsoleAppCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/ConsoleAppCalculator.AssemblyInfoInputs.cache
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/ConsoleAppCalculator.AssemblyInfo.cs
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/ConsoleAppCalculator.csproj.CoreCompileInputs.cache
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/ConsoleAppCalculator.dll
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/refint/ConsoleAppCalculator.dll
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/ConsoleAppCalculator.pdb
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/ConsoleAppCalculator.genruntimeconfig.cache
+/home/marcelo/Documents/github/TiAutoQaTest/ConsoleAppCalculator/ConsoleAppCalculator/obj/Debug/net6.0/ref/ConsoleAppCalculator.dll
