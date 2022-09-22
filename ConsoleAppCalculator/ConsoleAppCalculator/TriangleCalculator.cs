@@ -56,11 +56,43 @@ namespace ConsoleAppCalculator
             return (ab == bc || ab == bc || bc == ca);
         }
 
+        
         internal bool IsRight(double ab, double bc, double ca, double delta)
         {
-            Console.WriteLine(Math.Pow(bc, 2) - (Math.Pow(ab, 2) + Math.Pow(ca, 2)));
+            double[] sides = { ab, bc, ca };
 
-            return Math.Pow(bc, 2) - (Math.Pow(ab, 2) + Math.Pow(ca, 2)) <= delta;
+            int longestSideIdx = 0;
+            
+            int[] shortSideIdx = new int[2];
+            
+            //find longest side
+            for (int i = 1; i < sides.Length; i++)
+            {
+                if (sides[longestSideIdx] < sides[i])
+                {
+                    longestSideIdx = i;
+                }
+            }
+            
+            //Find other sides
+            int prt = 0;
+            for (int i = 0; i < sides.Length; i++)
+            {
+                if (!(sides[longestSideIdx] == sides[i]))
+                {
+                    shortSideIdx[prt++] = i;
+                }
+            }
+            
+            
+            Console.WriteLine("Longest side: " + sides[longestSideIdx]);
+            Console.WriteLine("short 1 side: " + sides[shortSideIdx[0]]);
+            Console.WriteLine("short 1 side: " + sides[shortSideIdx[1]]);
+            Console.WriteLine("Check maths:");
+            Console.WriteLine("Left side: " + Math.Pow(sides[longestSideIdx], 2));
+            Console.WriteLine("Right side: " + (Math.Pow(sides[shortSideIdx[0]], 2) + Math.Pow(sides[shortSideIdx[1]], 2)));
+            
+            return Math.Abs( Math.Pow(sides[longestSideIdx], 2) - (Math.Pow(sides[shortSideIdx[0]], 2) + Math.Pow(sides[shortSideIdx[1]], 2))) <= delta;
         }
 
         internal bool isCollinear( double coordinateXA,  double coordinateYA,  double coordinateXB,  double coordinateYB,  double coordinateXC,  double coordinateYC)
