@@ -53,13 +53,13 @@ class  Program
         Console.WriteLine("Enter coordinate y of dot C");
         Double.TryParse(Console.ReadLine(), out coordinateYC);
         TriangleCalculator Tc = new TriangleCalculator();
-       
-        /*
-            if(Tc.isCollinear(coordinateXA, coordinateYA, coordinateXB, coordinateYB, coordinateXC, coordinateYC))
-            {
-                Console.WriteLine("Coordinates are collinear!!");
-                return;
-            }*/
+
+        if(Tc.isCollinear(coordinateXA, coordinateYA, coordinateXB, coordinateYB, coordinateXC, coordinateYC))
+        {
+            Console.WriteLine("Coordinates are collinear!!");
+            return;
+        }
+            
         ab = Math.Round( Tc.convertCoodinatesToDistance(coordinateXA, coordinateYA, coordinateXB, coordinateYB), 2);
         bc = Math.Round( Tc.convertCoodinatesToDistance(coordinateXB, coordinateYB, coordinateXC, coordinateYC), 2);
         ca = Math.Round( Tc.convertCoodinatesToDistance(coordinateXC, coordinateYC, coordinateXA, coordinateYA), 2);
