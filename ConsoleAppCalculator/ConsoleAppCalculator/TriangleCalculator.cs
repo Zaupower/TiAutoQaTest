@@ -55,14 +55,11 @@ namespace ConsoleAppCalculator
         {
             return (ab == bc || ab == bc || bc == ca);
         }
-
         
         internal bool IsRight(double ab, double bc, double ca, double delta)
         {
             double[] sides = { ab, bc, ca };
-
             int longestSideIdx = 0;
-            
             int[] shortSideIdx = new int[2];
             
             //find longest side
@@ -73,7 +70,6 @@ namespace ConsoleAppCalculator
                     longestSideIdx = i;
                 }
             }
-            
             //Find other sides
             int prt = 0;
             for (int i = 0; i < sides.Length; i++)
@@ -83,15 +79,6 @@ namespace ConsoleAppCalculator
                     shortSideIdx[prt++] = i;
                 }
             }
-            
-            
-            Console.WriteLine("Longest side: " + sides[longestSideIdx]);
-            Console.WriteLine("short 1 side: " + sides[shortSideIdx[0]]);
-            Console.WriteLine("short 1 side: " + sides[shortSideIdx[1]]);
-            Console.WriteLine("Check maths:");
-            Console.WriteLine("Left side: " + Math.Pow(sides[longestSideIdx], 2));
-            Console.WriteLine("Right side: " + (Math.Pow(sides[shortSideIdx[0]], 2) + Math.Pow(sides[shortSideIdx[1]], 2)));
-            
             return Math.Abs( Math.Pow(sides[longestSideIdx], 2) - (Math.Pow(sides[shortSideIdx[0]], 2) + Math.Pow(sides[shortSideIdx[1]], 2))) <= delta;
         }
 
