@@ -10,7 +10,7 @@ namespace ConsoleAppCalculator
 {
     class TriangleCalculator
     {
-        public void printEvenNumbers(int perimeter)
+        internal void printEvenNumbers(int perimeter)
         {
             for(int i = 0; i <= perimeter; i++)
             {
@@ -20,7 +20,7 @@ namespace ConsoleAppCalculator
                 }
             }
         }
-        public double convertCoodinatesToDistance(double x1, double y1, double x2, double y2)
+        internal double convertCoodinatesToDistance(double x1, double y1, double x2, double y2)
         {
             // Function to calculate distance
             return Math.Sqrt(Math.Pow(x2 - x1, 2) +
