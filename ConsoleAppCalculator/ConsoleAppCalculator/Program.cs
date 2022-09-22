@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Notes there are coordinates because the triangle is being defined on 2d plan
-
-using ConsoleAppCalculator;
+﻿using ConsoleAppCalculator;
 
 class  Program
 {
@@ -14,7 +11,8 @@ class  Program
         double coordinateYB = 0; 
         double coordinateXC = 0; 
         double coordinateYC = 0; 
-/*      //Equilateral 
+        /*
+        //Equilateral 
         double coordinateXA = 15; 
         double coordinateYA = 0; 
         double coordinateXB = 0; 
@@ -69,6 +67,7 @@ class  Program
         bool isIsosceles = Tc.IsIsosceles(ab, bc, ca);
         bool isItRight = Tc.IsRight(ab, bc, ca, 1.3);
 
+        Console.WriteLine("");
         Console.WriteLine("Length of AB is: " + ab);
         Console.WriteLine("Length of BC is: " + bc);
         Console.WriteLine("Length of CA is: " + ca);

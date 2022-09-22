@@ -10,23 +10,6 @@ namespace ConsoleAppCalculator
 {
     class TriangleCalculator
     {
-
-        //one of the angles is 90º
-        public bool IsRight()
-        {
-            return false;
-        }
-        //P = a + b + c
-        public bool getPerimeter()
-        {
-            return false;
-        }
-        /*
-         * if ( i % 2 == 0 )
-            {
-                cout << i <<" ";
-            }	
-         */
         public void printEvenNumbers(int perimeter)
         {
             for(int i = 0; i <= perimeter; i++)
@@ -37,15 +20,12 @@ namespace ConsoleAppCalculator
                 }
             }
         }
-
         public double convertCoodinatesToDistance(double x1, double y1, double x2, double y2)
         {
             // Function to calculate distance
             return Math.Sqrt(Math.Pow(x2 - x1, 2) +
                              Math.Pow(y2 - y1, 2) * 1.0);
         }
-
-        //all sides equal and angles
         internal bool IsEquilateral(double ab, double bc, double ca)
         {
             return (ab == bc && bc == ca);
@@ -81,7 +61,6 @@ namespace ConsoleAppCalculator
             }
             return Math.Abs( Math.Pow(sides[longestSideIdx], 2) - (Math.Pow(sides[shortSideIdx[0]], 2) + Math.Pow(sides[shortSideIdx[1]], 2))) <= delta;
         }
-
         internal bool isCollinear( double coordinateXA,  double coordinateYA,  double coordinateXB,  double coordinateYB,  double coordinateXC,  double coordinateYC)
         {
             return (coordinateYB - coordinateYA) * (coordinateXC - coordinateXB) == (coordinateYC - coordinateYB) * (coordinateXB - coordinateXA);
